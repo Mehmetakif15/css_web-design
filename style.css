@@ -152,18 +152,22 @@ h4 {
 
 .service {
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
+  gap: 12rem;
   padding: 2rem;
   background-color: lightgoldenrodyellow;
   height: 78vh;
 }
 .ser article {
   background-color: rgb(235, 235, 173);
+  /* display: flex; */
+
   padding: 2rem 1rem;
   margin-bottom: 2rem;
 }
 .service .get {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
